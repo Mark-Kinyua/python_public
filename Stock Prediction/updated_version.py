@@ -18,7 +18,7 @@ company = ["TSLA", "FB", "AMZN", "GOOG", "NFLX"]
 
 for comp in company:
     start = dt.datetime(2012, 1, 1)
-    end = dt.datetime(2021, 5, 11)
+    end = dt.datetime(2022, 2, 2)
 
     def data_reader(comp, begin, mwisho):
         try:

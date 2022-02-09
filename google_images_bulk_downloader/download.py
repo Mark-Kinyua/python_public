@@ -1,3 +1,4 @@
+# Import Libraries
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -17,12 +18,13 @@ def main():
     download_images()
 
 
+
 # The Image Downloader Function
 def download_images():
     data = input('What are you looking for? ')
     n_images = int(input('How many images do you want? '))
 
-    print('searching...')
+    print('Searching...')
 
     search_url = google_image + 'q=' + data
 

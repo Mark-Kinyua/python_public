@@ -8,6 +8,7 @@ import speech_recognition as sr
 r = sr.Recognizer()
 run = True
 data = {}
+# Open Json File.
 with open("/home/mark/programs/python_programs/class_NoteTaker/notepad.json", 'r') as f:
     data = json.load(f)
 

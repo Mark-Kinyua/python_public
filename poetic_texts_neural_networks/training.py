@@ -5,6 +5,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.layers import Activation, Dense, LSTM
 
+
 # Let's see how poetic i can get.
 
 filepath = tf.keras.utils.get_file('shakespeare.txt',
