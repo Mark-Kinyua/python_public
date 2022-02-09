@@ -17,6 +17,7 @@ def main():
     download_images()
 
 
+# The Image Downloader Function
 def download_images():
     data = input('What are you looking for? ')
     n_images = int(input('How many images do you want? '))
