@@ -1,0 +1,30 @@
+{"intents":  [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hi", "hey", "good day", "good morning", "greeting", "what's up?"],
+  "responses":  ["Hello!", "Hey!", "What can i do for you?"]
+  },
+  {"tag":  "goodbye",
+    "patterns": ["cya", "bye","goodbye","see you later"],
+    "responses": ["Sad to see you go: (", "See you later!", "Goodbye!"]
+  },
+  {"tag": "age",
+    "patterns": ["how old are you","what your age","age?","how old is Mark?"],
+    "responses": ["My owner Mark is 21 years old!", "21 years old!"]
+  },
+  {"tag": "name",
+    "patterns": ["What is your name?","what's your name?","do you have a name?"],
+    "responses": ["You can call me Alpha!","Alpha","My name is Alpha"]
+  },
+  {"tag":  "shop",
+    "patterns": ["I'd like to buy something","do you sell anything","what do you sell", "what do you recommend"],
+    "responses": ["My owner Mark sells things online, to contact him kindly call this number 0701087178"]
+  },
+  {"tag":  "hours",
+    "patterns": ["When are you guys open","what are your hours","hours of operation"],
+    "responses": ["24/7"]
+  },
+  {"tag": "stocks",
+    "patterns": ["What stocks do i own?","How are my shares","What companies am i investing in","What stocks do i have","Stocks i own"],
+    "responses": ["You own the following shares: CTUM, EABL, and Absa Bank!"]
+  }
+]}
