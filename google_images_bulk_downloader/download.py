@@ -11,12 +11,10 @@ user_agent = {
 
 saved_folder = 'images'
 
-
 def main():
     if not os.path.exists(saved_folder):
         os.mkdir(saved_folder)
     download_images()
-
 
 
 # The Image Downloader Function

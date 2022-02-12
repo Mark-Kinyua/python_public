@@ -1,8 +1,9 @@
 import numpy as np
 import cv2
- # Fix This
+
+
 image_path = 'room_people.jpg' # Photo
-prototxt_path = 'models/MobileNetSSD_deploy.prototxt'
+prototxt_path = 'models/MobileNetSSD_deploy.prototxt' # Load Model
 model_path = 'models/MobileNetSSD_deploy.caffemodel'
 min_confidence = 0.2
 
