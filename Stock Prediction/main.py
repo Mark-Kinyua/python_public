@@ -8,7 +8,6 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import load_model
 
 
-
 # Loading data
 company = ["TSLA", "FB", "AMZN", "GOOG", "NFLX"]
 
