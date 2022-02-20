@@ -9,7 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dropout, LSTM, Dense
 
 # I wonder if this algorithm can beat real life traders lol.
-# update, it did....
+# update, it actaully did, lol. Money is getting meaningless.
 
 # Segmentation of functions for clear display of analysis.
 
