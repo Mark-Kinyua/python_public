@@ -5,7 +5,7 @@
   },
   {"tag":  "goodbye",
     "patterns": ["cya", "bye","goodbye","see you later"],
-    "responses": ["Sad to see you go: (", "See you later!", "Goodbye!"]
+    "responses": ["Sad to see you go: (", "See you later!", "Goodbye!", "Till next time!"]
   },
   {"tag": "age",
     "patterns": ["how old are you","what your age","age?","how old is Mark?"],
