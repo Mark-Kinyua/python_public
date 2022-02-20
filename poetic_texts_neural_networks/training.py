@@ -7,6 +7,9 @@ from tensorflow.keras.layers import Activation, Dense, LSTM
 
 
 # Let's see how poetic i can get.
+# Then i send them out and see if they work...
+
+# Update, they worked, lol, just need to switch some words my guys.. be romantic baba.
 
 filepath = tf.keras.utils.get_file('shakespeare.txt',
                                    'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')

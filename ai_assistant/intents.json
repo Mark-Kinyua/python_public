@@ -8,7 +8,11 @@
     "responses": ["Sad to see you go: (", "See you later!", "Goodbye!", "Till next time!"]
   },
   {"tag": "age",
-    "patterns": ["how old are you","what your age","age?","how old is Mark?"],
+    "patterns": ["how old are you","what is your age","age?","how are you?"],
+    "responses": ["I do not calculate my age in years", "Honestly, I don't know LOL!"]
+  },
+  {"tag": "mark",
+    "patterns": ["how old is mark","what is mark's age","age?","how old is Mark?"],
     "responses": ["My owner Mark is 21 years old!", "21 years old!"]
   },
   {"tag": "name",

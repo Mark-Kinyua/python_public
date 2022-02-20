@@ -1,7 +1,12 @@
-# Import Libraries
 import os
 import requests
 from bs4 import BeautifulSoup
+
+# Made to download a ton of photos from google images.
+# Well i have to say this, all images are subject to copyright people. not mine.
+
+# Or are they haha,
+# nope.
 
 google_image = "https://www.google.com/search?site=&tbm=isch&source=hp&biw=1873&bih=990&"
 

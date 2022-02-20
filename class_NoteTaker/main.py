@@ -2,14 +2,15 @@ import json
 from datetime import datetime
 import speech_recognition as sr
 
-# Made purely so that all words that are said my lecturer online are written
+# Made purely so that all words that are said by my lecturer online are written
 # into a json file and i can read it later.
+# it isn't illegal, just smart.
 
 r = sr.Recognizer()
 run = True
 data = {}
 # Open Json File.
-with open("/home/mark/programs/python_programs/class_NoteTaker/notepad.json", 'r') as f:
+with open("/home/mark/programs/python_public/class_NoteTaker/notepad.json", 'r') as f:
     data = json.load(f)
 
 while run:

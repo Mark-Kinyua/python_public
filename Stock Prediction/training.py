@@ -7,6 +7,8 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dropout, LSTM, Dense
 
+# Lets shake the finance industry just abit by outplaying them with the law of economics..
+
 # Loading data
 company = ["TSLA", "FB", "AMZN", "GOOG", "NFLX"]
 

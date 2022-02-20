@@ -1,3 +1,5 @@
 Hi,
 
-This is a compilation of programs made with python during my free time.
+Made these programs when I wanted to automate something i'd do over and over again and also during my free time.
+Enjoy!!
+ 

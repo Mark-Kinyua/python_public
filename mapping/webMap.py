@@ -1,6 +1,8 @@
 import folium
 import pandas
 
+# Lets try sketching..
+
 volcano = pandas.read_csv("Volcanoes.txt")
 world = open('world.json', 'r', encoding='utf-8-sig').read()
 lat = list(volcano["LAT"])

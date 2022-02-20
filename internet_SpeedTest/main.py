@@ -1,6 +1,7 @@
 import speedtest
 
 # Lets test Zuku.
+# Its getting frustrating now....
 
 test = speedtest.Speedtest()
 print("Loading server list...")

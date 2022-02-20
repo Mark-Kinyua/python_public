@@ -4,6 +4,8 @@ import tkinter
 import tkinter.scrolledtext
 from tkinter import simpledialog
 
+# Decided to make a messaging platform with no memeory, can you imagine,
+# Its like talking and no recording.
 
 # if online, provide public address here
 # For now, using locala network.

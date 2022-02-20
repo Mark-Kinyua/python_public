@@ -1,8 +1,13 @@
 import numpy as np
 import cv2
 
+# A motion detecetor, yup... lol.
+
 
 image_path = 'room_people.jpg' # Photo
+
+# The model was already formulated, just need to loaad it into the system.
+
 prototxt_path = 'models/MobileNetSSD_deploy.prototxt' # Load Model
 model_path = 'models/MobileNetSSD_deploy.caffemodel'
 min_confidence = 0.2
