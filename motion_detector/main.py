@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 
 # A motion detecetor, yup... lol.
+# Remember to use an old python version < 3.6
 
 
 image_path = 'room_people.jpg' # Photo
